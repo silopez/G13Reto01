@@ -1,0 +1,72 @@
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif; /* Aplica la fuente a los títulos */
+    font-weight: 700; /* Asegúrate de que los títulos sean más gruesos */
+}
+
+body {
+    background-color: #f0f8ff; /* Color de fondo suave */
+    color: #333;
+    font-family: Arial, sans-serif; /* Fuente básica para el cuerpo del texto */
+}
+
+header {
+    background-image: url('fondo1.png'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Cambia el color del texto a blanco para mejor contraste */
+    padding: 20px 0; /* Añade espacio arriba y abajo */
+    border-radius: 8px; /* Bordes redondeados para el header */
+}
+
+footer {
+    background-image: url('fondo1.png'); /* Imagen de fondo para el footer */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    padding: 20px 0; /* Añade espacio arriba y abajo */
+    margin-top: 20px; /* Añade espacio superior para separar del contenido */
+}
+
+.footer-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente para el contenido */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    display: inline-block; /* Hace que el div se ajuste al contenido */
+    width: 90%; /* Ajusta el ancho para que ocupe casi todo el espacio */
+}
+
+.footer-content-2 {
+    background-color: #add8e6; /* Azul claro */
+    color: black; /* Cambia el color del texto a negro para mejor contraste */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    border: 1px solid #007bff; /* Borde azul */
+    margin-bottom: 15px; /* Espacio entre secciones */
+}
+
+.card-header {
+    background-color: #e9ecef; /* Color de fondo del encabezado */
+}
+
+.btn-link {
+    color: #007bff; /* Color del texto del botón */
+    text-decoration: none; /* Sin subrayado */
+    width: 100%; /* Ocupa todo el ancho */
+    text-align: left; /* Alineación a la izquierda */
+}
+
+.btn-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.card-body {
+    border-top: 1px solid #007bff; /* Borde superior en el cuerpo */
+}
